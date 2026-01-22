@@ -88,7 +88,7 @@ const onSearchForm = async event => {
   }
 };
 
-//-----Loade More button
+//-----Load More button
 const onLoadMoreBtn = async event => {
   try {
     page++;

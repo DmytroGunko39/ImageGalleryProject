@@ -4,8 +4,37 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+  min-height: 100vh;
+}
+
+.gallery-section {
+  padding: 40px 0 60px;
+}
+
 .container {
-  width: 1200px;
+  width: 100%;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 24px;
+}
+
+/* Responsive container */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .gallery-section {
+    padding: 24px 0 40px;
+  }
 }
